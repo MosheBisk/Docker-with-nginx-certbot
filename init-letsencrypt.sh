@@ -5,7 +5,7 @@ if ! [ -x "$(command -v docker-compose)" ]; then
   exit 1
 fi
 
-domains=(http://jenkins.madan.ravtech.co.il:8080)
+domains=(jenkins.madan.ravtech.co.il:8080)
 rsa_key_size=4096
 data_path="./data/certbot"
 email="moshe.bisk@ravtech.co.il" # Adding a valid address is strongly recommended
